@@ -1,0 +1,11 @@
+1 . how to run spark file in python.
+
+spark-submit your_file.py
+
+2 .why we create Schema ? 
+ for fast operation if you are not created shchema then spark automatic scane your file then it create some issue 
+ * slow performance
+ * automatic scane have some issue 
+ * spark predict the data time .
+
+ so, that way i create schema to guide to spark easy and fast performance.
